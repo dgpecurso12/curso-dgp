@@ -8,3 +8,7 @@ servicio dgpcurso11/practicando= http://192.168.1.110:10002/api/suma?a=4&b=6
 servicio dgpcurso12/operacion= http://192.168.1.110:10004/api/suma?a=4&b=6
 
 servicio dgpecurso17/suma17= http://192.168.1.110:10003/api/suma?a=4&b=6
+
+
+sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 http://192.168.1.156:8080/v1/scripts/BC9830401A6AEECD93DA:1514678400000:Hq3l77LWsJLp0NVPXg68UjI5BY
+
